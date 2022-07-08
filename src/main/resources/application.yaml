@@ -1,0 +1,17 @@
+server:
+  app:
+    auto: true
+  servlet:
+    context-path: /azurian/v1
+
+spring:
+  application:
+    name: azurian
+
+#Spring boot actuator config for health check
+endpoints:
+  health:
+    sensitive: false
+    mapping:
+      DOWN: SERVICE_UNAVAILABLE
+
