@@ -1,11 +1,11 @@
-package azurian.service;
+package apiTest.service;
 
-import azurian.common.NotFoundException;
-import azurian.common.ServiceException;
-import azurian.domain.User;
-import azurian.domain.UserResponse;
-import azurian.repository.UserEntity;
-import azurian.repository.UserRepository;
+import apiTest.common.NotFoundException;
+import apiTest.common.ServiceException;
+import apiTest.domain.User;
+import apiTest.domain.UserResponse;
+import apiTest.repository.UserEntity;
+import apiTest.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,7 +20,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class UserService {
 
-      private final UserRepository userRepository;
+      private UserRepository userRepository;
       private static final Logger LOGGER = LoggerFactory.getLogger(UserService.class);
 
       public User getUserById(String userId){

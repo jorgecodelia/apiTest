@@ -1,4 +1,4 @@
-package azurian;
+package apiTest;
 
 import lombok.Generated;
 import org.springframework.boot.SpringApplication;
@@ -11,10 +11,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @ComponentScan("azurian")
 @ComponentScan(basePackages = {"azurian"})
 @Generated
-public class AzurianApplication {
+public class apiTestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AzurianApplication.class, args);
+		SpringApplication.run(apiTestApplication.class, args);
 	}
 
 }

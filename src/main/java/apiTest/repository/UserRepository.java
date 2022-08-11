@@ -1,4 +1,4 @@
-package azurian.repository;
+package apiTest.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

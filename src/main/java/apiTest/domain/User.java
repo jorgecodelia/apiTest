@@ -1,10 +1,7 @@
-package azurian.domain;
+package apiTest.domain;
 
 import lombok.Builder;
 import lombok.Data;
-
-import javax.persistence.Column;
-import java.time.LocalDateTime;
 
 @Data
 @Builder

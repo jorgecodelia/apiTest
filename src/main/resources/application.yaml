@@ -2,11 +2,11 @@ server:
   app:
     auto: true
   servlet:
-    context-path: /azurian/v1
+    context-path: /apiTest/v1
 
 spring:
   application:
-    name: azurian
+    name: apiTest
 
 #Spring boot actuator config for health check
 endpoints:

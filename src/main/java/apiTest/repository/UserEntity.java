@@ -1,4 +1,4 @@
-package azurian.repository;
+package apiTest.repository;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
